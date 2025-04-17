@@ -1,3 +1,7 @@
+body {
+  background-color: #f9d9b9;
+}
+
 h1 {
   color: #000000;
   font-size: 20px;
@@ -36,10 +40,13 @@ h4 {
 }
 
 .recipe-container {
-  max-width: 736px;
-  margin: 0 auto;
+  max-width: 500px;
+  max-height: 5000px;
+  margin: 2rem auto;
   padding: 2rem;
   background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .recipe-image {
